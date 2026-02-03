@@ -6,7 +6,7 @@ const pushNotification = (posTop, posRight, title, description, type) => {
 
   block.classList.add('notification', type);
 
-  block.style.position = 'absolut';
+  block.style.position = 'absolute';
   block.style.top = `${posTop}px`;
   block.style.right = `${posRight}px`;
 
